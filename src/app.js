@@ -65,7 +65,7 @@ export function App(){
                         </tbody>
                     </table> 
                     <div className="btn-group">
-                        {previousPageNo !== 0 && <button data-prevbtn onClick={()=>setPage(previousPageNo)}>Previous</button>}
+                        <button data-prevbtn onClick={()=>setPage(previousPageNo)} disabled={previousPageNo === 0 ? true: false}>Previous</button>
                         <button data-nextbtn onClick={()=>setPage(nextPageNo)}>Next</button>
                         <label data-pageview>Showing Page {currentPageNo}</label>
                     </div>  
