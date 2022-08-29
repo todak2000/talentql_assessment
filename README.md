@@ -1,5 +1,7 @@
 # Frontend Assessment
 
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/1ad5c3a3e6de4335aad23e65dbf8e798)](https://app.codacy.com/gh/todak2000/talentql_assessment?utm_source=github.com&utm_medium=referral&utm_content=todak2000/talentql_assessment&utm_campaign=Badge_Grade_Settings)
+
 Build and deploy a very simple frontend app for paginated data, that does the following
 
 1.  Fetches (randomised) data from `https://randomapi.com/api/8csrgnjw?key=LEIX-GF3O-AG7I-6J84` which can be paged by appending `&page=N` where N is the page you want to fetch. E.g appending `&page=1` retrieves the first page, while `&page=4` retrieves the 4th page.
