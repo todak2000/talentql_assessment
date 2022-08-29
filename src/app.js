@@ -54,7 +54,7 @@ export function App(){
                         <tbody data-sink>
                             {pageData?.map((data, index)=>{
                                 return (
-                                    <tr key={data.id}>
+                                    <tr key={data.id} data-entryid={data.id}>
                                         <td>{data.row}</td>
                                         <td>{data.gender}</td>
                                         <td>{data.age}</td>
