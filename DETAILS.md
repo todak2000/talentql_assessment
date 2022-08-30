@@ -4,7 +4,7 @@
 
 A very simple frontend app for paginated data that fetches data from randomapi and display the 5 rows of data paginated. It was developed as part of the Technical Assessments for consideration into the TalentQL Pipeline Program (FrontEnd).
 
-# URL
+## URL
 
 https://talentql-daniel-olagunju.onrender.com/
 
