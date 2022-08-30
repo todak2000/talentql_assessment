@@ -5,14 +5,13 @@ let add;
 let previousNumber = 1;
 export async function getData(data) {
     if ( data % 2 == 1 ) { 
-        add = "&page="+data }
-    else if ( data % 2 === 0 
-        ) {
-        if ( data === previousNumber 
-            ){ add = "" }
+        add = "&page="+`${data}`; }
+    else if ( data % 2 === 0 ) {
+        if ( data === previousNumber ){ 
+            add = ""; }
         else {
-            add = "&page="+data;
-            previousNumber = data
+            add = "&page="+`${data}`;
+            previousNumber = data;
         }
         
     }
