@@ -87,13 +87,16 @@ tbody tr:nth-child(even) {
   display: inline-block;
   margin: 0.6em 1em;
 }
+
 .loader {
   border: 10px solid #f3f3f3;
-  border-top: 10px solid #3e8e41;border-radius: 50%;
+  border-top: 10px solid #3e8e41;
+  border-radius: 50%;
   width: 80px; 
   height: 80px;
   animation: spin 1s linear infinite;
 }
+
 .spinBg{
   display: flex;
   justify-content: center;
@@ -106,6 +109,7 @@ tbody tr:nth-child(even) {
   0% {
     transform: rotate(0deg);
   }
+  
   100% {
     transform: rotate(360deg);
   }
